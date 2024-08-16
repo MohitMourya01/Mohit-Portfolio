@@ -1,0 +1,22 @@
+.rainbow-mouse-tail {
+    position: absolute;
+    pointer-events: none; // prevent the tail from interfering with other elements
+  }
+  .rainbow-mouse-tail .tail {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    animation: rainbow 1s linear infinite;
+  }
+  
+  @keyframes rainbow {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }

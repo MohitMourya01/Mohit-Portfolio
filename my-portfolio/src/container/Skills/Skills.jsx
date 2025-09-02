@@ -43,6 +43,16 @@ const skill = [
     bgColor: "#fef4f5",
     icon: images.node,
   },
+  {
+    name: "Python", 
+    bgColor: "#fef4f5",
+    icon: images.python
+  },
+  {
+    name: "AI/ML", 
+    bgColor: "#fef4f5",
+    icon: images.ml
+  }
   
   
 ]

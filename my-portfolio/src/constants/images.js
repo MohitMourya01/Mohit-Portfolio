@@ -37,9 +37,10 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import tailwind from '../assets/tailwind.png'
 import download from '../assets/download.png'
-
+import ml from '../assets/ml.png'
 export default {
   email,
+  ml,
   mobile,
   api,
   cpp,

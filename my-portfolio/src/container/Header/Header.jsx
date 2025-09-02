@@ -46,7 +46,7 @@ const headerSkillVariants = {
 
 const Header = () => {
   const {text} = useTypewriter({
-    words: [ " Developer."," Learner."," Coder."," Self Believer."],
+    words: [ " Developer."," Learner."," Coder."," AI/ML.", "Generative AI"],
     loop: 0, 
     typeSpeed: 70,
     deleteSpeed: 50,
@@ -88,9 +88,12 @@ const Header = () => {
                 .typeString("FullStack")
                 .pauseFor(1000)
                 .deleteAll()
-                // .typeString("Self believer")
-                // .pauseFor(1000)
-                // .deleteAll()
+                .typeString("AI/ML")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("Generative AI")
+                .pauseFor(1000)
+                .deleteAll()
                 .start();
               }}/>
             </p>
@@ -121,7 +124,7 @@ const Header = () => {
         whileInView={scaleVariants.whileInView}
         className="app__header-circles"
       >
-        {[images.javascript, images.react, images.css].map((circle, index) => (
+        {[images.react, images.python, images.ml].map((circle, index) => (
           <motion.div
             variants={headerSkillVariants}
             whileInView="visible"
